@@ -1,0 +1,41 @@
+{
+  "Name": "",
+  "Role": "",
+  "DatabaseName": "",
+  "Description": "",
+  "Targets": {
+    "S3Targets": [
+      {
+        "Path": "",
+        "Exclusions": [
+          ""
+        ]
+      }
+    ],
+    "JdbcTargets": [
+      {
+        "ConnectionName": "",
+        "Path": "",
+        "Exclusions": [
+          ""
+        ]
+      }
+    ],
+    "DynamoDBTargets": [
+      {
+        "Path": ""
+      }
+    ]
+  },
+  "Schedule": "",
+  "Classifiers": [
+    ""
+  ],
+  "TablePrefix": "",
+  "SchemaChangePolicy": {
+    "UpdateBehavior": "LOG",
+    "DeleteBehavior": "LOG"
+  },
+  "Configuration": "",
+  "CrawlerSecurityConfiguration": ""
+}

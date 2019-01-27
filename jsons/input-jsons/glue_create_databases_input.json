@@ -1,0 +1,10 @@
+{
+  "databases_list": [
+    {
+      "DatabaseInput": {
+        "Name": "{env}_TEST_Database3",
+        "Description": "{env}_TEST_Database2"
+      }
+    }
+  ]
+}

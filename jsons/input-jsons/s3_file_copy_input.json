@@ -1,0 +1,19 @@
+{
+  "file_paths_list": [
+    {
+      "input-path": "folder/folder1/input",
+      "s3-path": "s3://test_folder/input",
+	  "include-regex":"\"*\""
+    },
+	{
+      "input-path": "folder/folder1/input2",
+      "s3-path": "s3://test_folder/input2/",
+	  "include-regex":"\"*\""
+    },
+	{
+      "input-path": "input/jars/",
+      "s3-path": "s3://test_folder/jars/",
+	  "include-regex":"\"dataintegration-*.jar\""
+    }
+  ]
+}

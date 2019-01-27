@@ -1,0 +1,31 @@
+{
+  "jobs_list": [
+    {
+      "Name": "{env}_test_job235",
+      "Description": "",
+      "LogUri": "",
+      "Role": "arn:aws:iam::123456757645:role/AWSGlueServiceRole-{env}",
+      "ExecutionProperty": {
+        "MaxConcurrentRuns": 2
+      },
+      "Command": {
+        "Name": "demo.py",
+        "ScriptLocation": "s3://scriptpath/demo.py"
+      },
+      "DefaultArguments": {
+        "--s3_file_path": "s3://scriptpath/demo.py",
+        "--env": "{env}",
+        "--lambda_log_group": "/aws/lambda/{env}-lambdafunctn",
+        "--lambda_log_stream": "${var.lambda_log_stream}"
+      },
+      "Connections": {
+        "Connections": [
+          "{env}-redshift-connection"
+        ]
+      },
+      "MaxRetries": 2,
+      "Timeout": 2880,
+      "MaxCapacity": 2
+    }
+  ]
+}

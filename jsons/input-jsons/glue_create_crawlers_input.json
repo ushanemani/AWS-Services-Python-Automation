@@ -1,0 +1,25 @@
+{
+  "crawlers_list": [
+    {
+      "Name": "{env}_redshift_testCrawler1",
+      "Description": "{env}_redshift_testCrawler1",
+      "DatabaseName": "{env}-testcrawl",
+      "Targets": {
+        "JdbcTargets": [
+          {
+            "ConnectionName": "{env}-redshift-connection",
+            "Path": "databse/wezdc"
+          }
+        ]
+      },
+     "Schedule": "",
+      "TablePrefix": "commn_",
+      "SchemaChangePolicy": {
+        "UpdateBehavior": "LOG",
+        "DeleteBehavior": "LOG"
+      },
+	  "Configuration": "",
+     "CrawlerSecurityConfiguration": ""
+    }
+  ]
+}

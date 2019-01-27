@@ -1,0 +1,21 @@
+{
+    "CatalogId": "",
+    "ConnectionInput": {
+        "Name": "",
+        "Description": "",
+        "ConnectionType": "SFTP",
+        "MatchCriteria": [
+            ""
+        ],
+        "ConnectionProperties": {
+            "KeyName": ""
+        },
+        "PhysicalConnectionRequirements": {
+            "SubnetId": "",
+            "SecurityGroupIdList": [
+                ""
+            ],
+            "AvailabilityZone": ""
+        }
+    }
+}

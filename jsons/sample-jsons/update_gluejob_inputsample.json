@@ -1,0 +1,31 @@
+{
+    "JobName": "",
+    "JobUpdate": {
+        "Description": "",
+        "LogUri": "",
+        "Role": "",
+        "ExecutionProperty": {
+            "MaxConcurrentRuns": 0
+        },
+        "Command": {
+            "Name": "",
+            "ScriptLocation": ""
+        },
+        "DefaultArguments": {
+            "KeyName": ""
+        },
+        "Connections": {
+            "Connections": [
+                ""
+            ]
+        },
+        "MaxRetries": 0,
+        "AllocatedCapacity": 0,
+        "Timeout": 0,
+        "MaxCapacity": null,
+        "NotificationProperty": {
+            "NotifyDelayAfter": 0
+        },
+        "SecurityConfiguration": ""
+    }
+}

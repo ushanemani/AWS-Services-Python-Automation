@@ -1,0 +1,24 @@
+{
+  "connections_list": [
+    {
+      "CatalogId": "",
+      "ConnectionInput": {
+        "Name": "abc-redshift-connection",
+        "Description": "",
+        "ConnectionType": "JDBC",
+        "ConnectionProperties": {
+          "JDBC_CONNECTION_URL": "jdbc:url",
+          "PASSWORD": "abc",
+          "USERNAME": "abc"
+        },
+        "PhysicalConnectionRequirements": {
+          "SubnetId": "subnet-12a",
+          "SecurityGroupIdList": [
+            "sg-123dsdfsd"
+          ],
+          "AvailabilityZone": "vpc-23sdfsd"
+        }
+      }
+    }
+  ]
+}

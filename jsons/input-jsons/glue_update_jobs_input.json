@@ -1,0 +1,28 @@
+{
+  "jobs_list": [
+    {
+      "JobName": "qa_test_job235",
+	  "Description": "",
+      "JobUpdate": {
+       "ExecutionProperty": {
+        "MaxConcurrentRuns": 2
+      },
+	  "DefaultArguments":{
+            "KeyName": ""
+        },
+      "Command": {
+        "Name": "demo.py",
+        "ScriptLocation": "s3://scriptpath/demo.py"
+      },
+      "Connections": {
+        "Connections": [
+          "{env}-redshift-connection"
+        ]
+      },
+      "MaxRetries": 2,
+      "Timeout": 2880,
+      "MaxCapacity": 2
+      }
+    }
+  ]
+}

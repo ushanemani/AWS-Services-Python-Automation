@@ -1,0 +1,14 @@
+{
+  "file_paths_list": [
+    {
+      "input-path": "",
+      "s3-path": "",
+	  "include-regex":"\"*\""
+    },
+	{
+      "input-path": "",
+      "s3-path": "",
+	  "include-regex":"\"*\""
+    }
+  ]
+}

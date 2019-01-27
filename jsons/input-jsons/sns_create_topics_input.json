@@ -1,0 +1,10 @@
+{
+  "topics_list": [
+    {
+      "Name": "{env}_XYZ_notification",
+      "Attributes": {
+        "DisplayName": "sample_topic"
+      }
+    }
+  ]
+}
