@@ -11,8 +11,17 @@
         "ScriptLocation": ""
     },
     "DefaultArguments": {
-        "KeyName": ""
-    },
+        "--TempDir": "",
+        "--env": "",
+        "--extra-py-files": "",
+        "--job-bookmark-option": "",
+        "--job-language": "python",
+		"--extra-jars ":"",
+		"--extra-files":"",
+		"--lambda_log_group": "",
+        "--lambda_log_stream": "",
+        "--s3_file_path": "",
+	 },
     "Connections": {
         "Connections": [
             ""
@@ -21,7 +30,6 @@
     "MaxRetries": 0,
     "AllocatedCapacity": 0,
     "Timeout": 0,
-    "MaxCapacity": null,
     "NotificationProperty": {
         "NotifyDelayAfter": 0
     },
